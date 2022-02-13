@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+   android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b1"
+    tools:context=".ResultActivity">
+
+        <LinearLayout
+
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:paddingTop="110dp"
+                android:text="Your Score"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="50sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/percent_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="110sp"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:paddingTop="200dp"
+                android:textColor="@color/black"
+                android:gravity="center_horizontal" />
+
+
+            <TextView
+
+                android:id="@+id/correct_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:paddingTop="100dp"
+                android:textColor="@color/black"
+                android:gravity="center_horizontal" />
+
+        </LinearLayout>
+
+    <Button
+        android:onClick="restartGame"
+        android:layout_width="match_parent"
+        android:textSize="25sp"
+        android:padding="10dp"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:textStyle="bold"
+        android:layout_marginTop="70dp"
+        android:textAlignment="center"
+        android:text="Restart Quiz"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:paddingTop="100dp"
+        android:background="#0B4040"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" />
+
+
+</LinearLayout>
